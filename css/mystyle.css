@@ -1,0 +1,176 @@
+.manager{
+  background-color: palevioletred;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+}
+.attendants{
+  background-color: pink;
+  color: black;
+  text-align: center;
+  padding: 10px 19px;
+}
+body{
+  background-color: hotpink;
+}
+button {
+  background-color: #888888;
+  color: black;
+  border-radius: 12px;
+  background-size: 20px;
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.banner{
+  background-color: plum;
+  width: 100%;
+  height: 100vh;
+
+}
+nav{
+  margin: auto;
+  width: 85%;
+  padding: 35px 0;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 19px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ul #link1 a:hover{
+  color: goldenrod;
+  background-color: black;
+}
+ul #link2 a:hover{
+  color: #28C622;
+  background-color: #C62222;
+
+}
+ul #link3 a:hover{
+  color: aqua;
+  background-color: black;
+}
+ul #link4 a:hover{
+  color: black;
+  background-color: white;
+}
+ul #link5 a:hover{
+  color: #28C622;
+  background-color: aqua;
+}
+li a{
+  padding: 20%;
+  text-align: center;
+  border-radius: 12px;
+}
+a{
+  text-decoration: none;
+}
+.bsize{
+  height: 30px;
+  width: 60px;
+  text-decoration: none;
+}
+.login{
+  text-align: center;
+}
+.navb{
+  text-align: right;
+  position: inherit;
+  text-decoration: black;
+}
+th{
+  height: 50px;
+}
+td{
+  text-align: left;
+  font-size: larger;
+  font-style: italic;
+}
+table, th, td{
+  border: 1px solid black;
+  width: 200px;
+  height: 50px;
+  border-collapse: separate;
+  overflow-x: auto;
+}
+.footer{
+  color: white;
+  background-color: black;
+  padding: 3px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  height: 460px;
+
+}
+.blogin{
+  background-color: #888888;
+  color: black;
+  border-radius: 12px;
+  background-size: 20px;
+  text-decoration: none;
+  height: 30px;
+  width: 60px;
+}
+.left{
+  left: 50%;
+  background-color: bisque;
+}
+.middle{
+  background-color:white;
+}
+.right{
+  right: 25%;
+  background-color: hotpink;
+
+}
+.flip-images{
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  perspective: 1000px;
+}
+.flip-images-interior{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.back-text{
+  color: white;
+  background-color: indigo;
+  transform: rotateY(180deg);
+
+}
+.front-image{
+  background-color: gold;
+  color: black;
+}
+.flip-images:hover .flip-image-interior{
+  transform: rotateY(180deg);
+}
+.front-image, .back-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+}
